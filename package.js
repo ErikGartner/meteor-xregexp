@@ -8,6 +8,6 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
-  api.addFiles('xregexp-all-min.js');
+  api.addFiles('xregexp-all.js');
   api.export('XRegExp');
 });
